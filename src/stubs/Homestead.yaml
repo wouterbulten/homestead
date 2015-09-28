@@ -33,6 +33,8 @@ databases:
 variables:
     - key: APP_ENV
       value: local
+    - key: PATH
+      value: ~/npm-global/bin:$PATH
 
 # blackfire:
 #     - id: foo
